@@ -1,0 +1,529 @@
+.container {
+    margin: auto !important;
+}
+
+/* 
+====================================
+    DOCUMENT SECTION START
+====================================
+*/
+.doc-section * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.doc-section .doc-header {
+    background-color: #ACE3DF;
+    min-height: 100px;
+    padding: 15px;
+}
+
+.doc-section .doc-header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 52px;
+}
+
+.doc-section .doc-text {
+    background-color: #C1C4E8;
+    padding: 20px 15px;
+}
+
+.doc-section .doc-text p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.doc-section .doc-text h5 {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+@media (max-width: 991px) {
+    .doc-section .doc-header h1 {
+        font-size: 35px;
+    }
+
+}
+
+/* 
+====================================
+    DOCUMENT SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+    DOCUMENT BANNER SECTION START
+====================================
+*/
+.doc-banner-wrap * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.doc-banner-wrap {
+    margin: 50px 0;
+    padding: 15px;
+}
+
+.doc-banner-wrap .doc-banner {
+    max-width: 98%;
+    margin: auto;
+
+}
+
+.doc-banner-wrap .doc-banner-text p {
+    font-size: 20px;
+    text-align: justify;
+    color: #041E42;
+
+}
+
+/* 
+====================================
+    DOCUMENT BANNER SECTION END
+====================================
+*/
+/* 
+====================================
+    EXPLORE SECTION START
+====================================
+*/
+.doc-explore-section * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.doc-explore-section {
+    background-color: #D3D5F6;
+    padding: 70px 15px;
+    text-align: center;
+}
+
+.doc-explore-section h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #594EE6;
+    margin-bottom: 20px;
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.input-wrap input {
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid #594EE6;
+    background-color: #D3D5F6;
+    outline: none;
+    font-size: 24px;
+    padding: 20px;
+
+}
+
+.input-wrap button {
+    all: unset;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #594EE6;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doc-explore-section .explore-tabs {
+    margin-top: 70px;
+}
+
+.doc-explore-section .explore-tabs ul {
+    display: flex !important;
+}
+
+.doc-explore-section .explore-tabs ul li a {
+    padding: 7px 16px;
+    gap: 10px;
+    border-radius: 40px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #594EE6;
+    font-size: 18px;
+    color: #594EE6;
+    display: inline-block;
+}
+
+.doc-explore-section .explore-tabs ul li a:is(.active, :hover) {
+    color: #fff;
+    background-color: #594EE6;
+}
+
+
+@media (max-width: 991px) {
+    .doc-explore-section h2 {
+        font-size: 35px;
+    }
+
+
+
+    .doc-explore-section .explore-tabs {
+        margin-top: 50px;
+    }
+
+
+
+}
+
+/* 
+====================================
+    EXPLORE SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+    DECLARATION SECTION START
+====================================
+*/
+.declaration * {
+    box-sizing: border-box;
+}
+
+.declaration {
+    background-color: #041E42;
+    padding: 70px 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.declaration h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.declaration .declaration-tabs {
+    margin: 60px 0;
+}
+
+.declaration .declaration-tabs ul{
+    display: flex !important;
+}
+.declaration .declaration-tabs ul li a {
+    background-color: #594EE6;
+    padding: 8px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+}
+
+.declaration .card-banner {
+    color: #041E42;
+    background-color: #C1C4E8;
+    border-radius: 37px;
+    border: 2px;
+    padding: 25px;
+}
+
+.declaration .card-banner .card-banner-text {
+    padding-right: 40px;
+}
+
+.declaration .card-banner .card-banner-text h2 {
+    font-size: 35px;
+}
+
+.declaration .card-banner .card-banner-text h6 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.declaration .card-banner .card-banner-text p {
+    font-size: 20px;
+}
+
+.declaration .card-banner .card-banner-text p strong {
+    font-weight: 600;
+}
+
+.declaration .card-banner .card-banner-text .card-banner-btns a {
+    display: inline-block;
+    padding: 4px 20px;
+    color: #fff;
+    border: 1px solid #594EE6;
+    background-color: #594EE6;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.declaration .card-banner .card-banner-text .banner-counter {
+    display: flex !important;
+}
+
+.declaration .card-banner .card-banner-text .banner-counter li {
+    display: flex;
+    align-items: center;
+}
+
+.declaration .card-banner .card-banner-text .banner-counter li i {
+    font-size: 22px;
+    color: #fff;
+    margin-right: 8px;
+}
+
+.declaration .card-banner .card-banner-text .banner-counter li span {
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+@media (max-width: 991px) {
+    .declaration h2 {
+        font-size: 35px;
+    }
+
+    .declaration .declaration-tabs {
+        margin: 50px 0;
+    }
+
+    
+
+    .declaration .card-banner {
+        color: #041E42;
+        background-color: #C1C4E8;
+        border-radius: 37px;
+        border: 2px;
+        padding: 25px;
+    }
+
+    .declaration .card-banner .card-banner-text {
+        padding-right: 40px;
+        margin-top: 30px;
+    }
+
+    .declaration .card-banner .card-banner-text h2 {
+        font-size: 28px;
+    }
+
+   
+
+    .declaration .card-banner .card-banner-text .card-banner-btns a {
+        display: inline-block;
+        padding: 4px 20px;
+        color: #fff;
+        border: 1px solid #594EE6;
+        background-color: #594EE6;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+
+    
+    .declaration .card-banner .card-banner-text .banner-counter li {
+        display: flex;
+        align-items: center;
+    }
+
+    .declaration .card-banner .card-banner-text .banner-counter li i {
+        font-size: 22px;
+        color: #fff;
+        margin-right: 8px;
+    }
+
+    .declaration .card-banner .card-banner-text .banner-counter li span {
+        font-size: 18px;
+        display: inline-block;
+    }
+}
+
+/* 
+====================================
+    DECLARATION SECTION END
+====================================
+*/
+
+/* 
+====================================
+    CLAD SECTION START
+====================================
+*/
+.clad-section * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clad-section {
+    margin: 60px 0;
+    padding: 15px;
+}
+
+.clad-section .clad-section-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #594EE6;
+    margin-bottom: 40px;
+}
+
+.clad-section .clad-section-text .text-bar {
+    color: #fff;
+    background-color: #041E42;
+    border-radius: 15px;
+    padding: 16px 20px;
+    margin: 24px 0;
+}
+
+.clad-section .clad-section-text .text-bar h4 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+    color: #C1C4E8;
+}
+
+.clad-section .clad-section-text p {
+    font-size: 20px;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.clad-section .clad-section-text .clad-card {
+    background-color: #D9D9D9;
+    padding: 30px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.clad-section .clad-section-text .clad-card h4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.clad-section .clad-section-text .clad-card p {
+    margin-bottom: 0;
+}
+
+/* 
+====================================
+    CLAD SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+    ABOUT SECTION START
+====================================
+*/
+.about-section * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about-section {
+    background-color: #C1C4E8;
+    padding: 60px 15px;
+}
+
+.about-section h2 {
+    font-size: 35px;
+    color: #594EE6;
+    font-weight: 700;
+}
+
+.about-section p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.about-section p strong {
+    color: #594EE6;
+}
+
+.about-section a {
+    display: inline-block;
+    padding: 5px 25px;
+    border: 1px solid #594EE6;
+    color: #fff;
+    background-color: #594EE6;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+/* 
+====================================
+    ABOUT SECTION END
+====================================
+*/
+
+/* 
+====================================
+  DOCUMENT OFFICIAL SECTION START
+====================================
+*/
+.doc-official * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.doc-official {
+    background-color: #ACE3DF;
+    padding: 60px 15px;
+}
+
+.doc-official h2 {
+    font-size: 35px;
+    color: #041E42;
+    font-weight: 700;
+}
+
+.doc-official p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.doc-official p strong {
+    color: #594EE6;
+}
+
+.doc-official a {
+    display: inline-block;
+    padding: 5px 25px;
+    border: 1px solid #594EE6;
+    color: #fff;
+    background-color: #594EE6;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+/* 
+====================================
+  DOCUMENT OFFICIAL SECTION END
+====================================
+*/
