@@ -325,6 +325,7 @@ body {
     font-weight: 600;
     color: #594EE6;
     line-height: 1.5;
+    font-family: 'Red Hat Display';
 }
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
@@ -336,6 +337,7 @@ body {
     color: #041E42;
     font-weight: 600;
     display: inline-block;
+    font-family: 'Figtree';
 }
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text span {
@@ -343,6 +345,7 @@ body {
     margin-top: 10px;
     color: #041E428C;
     font-size: 14px;
+    font-family: 'Figtree';
 }
 
 
@@ -457,6 +460,7 @@ body {
     .escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
         padding: 6px 26px;
         font-size: 14px;
+
     }
 
 
@@ -549,6 +553,7 @@ body {
     font-weight: 600;
     color: #594EE6;
     line-height: 1.5;
+    font-family: 'Red Hat Display';
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
@@ -560,6 +565,7 @@ body {
     color: #041E42;
     font-weight: 600;
     display: inline-block;
+    font-family: 'Figtree';
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text span {
@@ -567,6 +573,7 @@ body {
     margin-top: 10px;
     color: #041E428C;
     font-size: 14px;
+    font-family: 'Figtree';
 }
 
 
@@ -605,6 +612,8 @@ body {
     color: #fff;
     border-radius: 50px;
     display: inline-block;
+    font-family: 'Figtree';
+
 }
 
 @media (max-width: 991px) {
@@ -772,6 +781,7 @@ body {
     border-radius: 50px;
     color: #ffff;
     font-size: 16px;
+    font-family: 'Figtree';
 
 }
 
@@ -784,6 +794,7 @@ body {
     font-weight: 500;
     margin-top: 20px;
     display: inline-block;
+    font-family: 'Red Hat Display';
 }
 
 
@@ -894,6 +905,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     color: #041E42;
+    font-family: 'Red Hat Display';
 }
 
 .escuela-comunidades-section h2 {
@@ -961,7 +973,7 @@ body {
         margin-bottom: 20px;
     }
 
-   
+
 }
 
 
@@ -974,8 +986,8 @@ body {
     .escuela-comunidades-section .comunidades-header h1 {
         font-size: 25px;
     }
-    
-    .escuela-comunidades-section  h2 {
+
+    .escuela-comunidades-section h2 {
         font-size: 25px;
     }
 
@@ -990,10 +1002,12 @@ body {
         padding: 15px 30px;
         margin-bottom: 20px;
     }
-    .escuela-comunidades-section .comunidades-card h2{
+
+    .escuela-comunidades-section .comunidades-card h2 {
         font-size: 16px;
     }
-    .escuela-comunidades-section .comunidades-card a{
+
+    .escuela-comunidades-section .comunidades-card a {
         font-size: 14px;
         padding: 7px;
     }
