@@ -1,0 +1,1009 @@
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5XyEAk4A.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5ZyEA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* latin-ext */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQkEz-Eec.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQk8z-A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+/* 
+=====================================
+    HERO TEXT SECTION START
+=====================================
+*/
+.escuela-hero-section {
+    padding: 60px 10px;
+}
+
+.escuela-hero-section .banner {
+    margin-bottom: 20px;
+}
+
+.escuela-hero-section .banner img {
+    width: 100%;
+}
+
+.escuela-hero-section p {
+    font-size: 20px;
+    font-family: 'Figtree';
+    color: #041E42;
+    text-align: justify;
+}
+
+.escuela-hero-section h5 {
+    font-size: 20px;
+    font-family: 'Red Hat Display';
+    font-weight: 600;
+    color: #041E42;
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .escuela-hero-section p {
+        font-size: 18px;
+    }
+
+    .escuela-hero-section h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575px) {
+    .escuela-hero-section {
+        padding: 30px 10px;
+    }
+
+    .escuela-hero-section p {
+        font-size: 14px;
+    }
+
+    .escuela-hero-section h5 {
+        font-size: 14px;
+    }
+}
+
+/* 
+=====================================
+    HERO TEXT SECTION END
+=====================================
+*/
+
+/* 
+=====================================
+    CURSOS SECTION START
+=====================================
+*/
+.escuela-cursos {
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.escuela-cursos .cursos-text h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #594EE6;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+}
+
+.escuela-cursos .cursos-text {
+    margin-bottom: 50px;
+}
+
+.escuela-cursos .cursos-text p {
+    font-size: 20px;
+    text-align: justify;
+    color: #041E42;
+    font-family: 'Figtree';
+}
+
+.escuela-cursos .cursos-banner {
+    max-width: 98%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.escuela-cursos .dots ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.escuela-cursos .dots ul li button {
+    all: unset;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #C1C4E8;
+    cursor: pointer;
+}
+
+.escuela-cursos .dots ul li button.active {
+    background-color: #594EE6;
+}
+
+
+@media (max-width: 991px) {
+    .escuela-cursos .cursos-text h2 {
+        font-size: 35px;
+        font-family: 'Red Hat Display';
+    }
+
+    .escuela-cursos .cursos-text {
+        margin-bottom: 30px;
+    }
+
+    .escuela-cursos .cursos-text p {
+        font-size: 18px;
+    }
+
+    .escuela-cursos .cursos-banner {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .escuela-cursos {
+        margin: 0px 0;
+        padding: 10px;
+    }
+
+    .escuela-cursos .cursos-text h2 {
+        font-size: 20px;
+        font-family: 'Red Hat Display';
+    }
+
+    .escuela-cursos .cursos-text {
+        margin-bottom: 30px;
+    }
+
+    .escuela-cursos .cursos-text p {
+        font-size: 14px;
+    }
+
+    .escuela-cursos .cursos-banner {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .escuela-cursos .dots ul li button {
+        all: unset;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #C1C4E8;
+    }
+
+}
+
+/* 
+=====================================
+    CURSOS SECTION END
+=====================================
+*/
+
+/* 
+=====================================
+    TALLERS SECTION START
+=====================================
+*/
+.escuela-tallers {
+    margin: 50px 0;
+
+}
+
+.escuela-tallers .tallers-text-cards {
+    max-width: calc(100% - 250px);
+    margin-left: auto;
+}
+
+.escuela-tallers .tallers-text-cards h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #594EE6;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+}
+
+.escuela-tallers .tallers-text-cards p {
+    font-size: 20px;
+    text-align: justify;
+    color: #041E42;
+    font-family: 'Figtree';
+    margin-bottom: 40px;
+}
+
+.escuela-tallers .tallers-text-cards .taller-cards-wrap>div {
+    min-width: 400px;
+}
+
+.escuela-tallers .tallers-text-cards .taller-card {
+    border-radius: 20px;
+    background-color: #C1C4E8;
+    overflow: hidden;
+}
+
+.escuela-tallers .tallers-text-cards .taller-card img {
+    width: 100%;
+}
+
+.escuela-tallers .tallers-text-cards .taller-card .taller-card-text {
+    padding: 20px 30px;
+    padding-right: 50px;
+}
+
+.escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #594EE6;
+    line-height: 1.5;
+}
+
+.escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
+    padding: 8px 30px;
+    border-radius: 40px;
+    border: 1px solid #041E42;
+    background-color: #10CBA9;
+    font-size: 16px;
+    color: #041E42;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.escuela-tallers .tallers-text-cards .taller-card .taller-card-text span {
+    display: block;
+    margin-top: 10px;
+    color: #041E428C;
+    font-size: 14px;
+}
+
+
+
+.escuela-tallers .dots {
+    margin-top: 30px;
+}
+
+.escuela-tallers .dots ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.escuela-tallers .dots ul li button {
+    all: unset;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #C1C4E8;
+    cursor: pointer;
+}
+
+.escuela-tallers .dots ul li button.active {
+    background-color: #594EE6;
+}
+
+.escuela-tallers .view-more-btn {
+    padding: 12px 35px;
+    background-color: #594EE6;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+@media (max-width: 991px) {
+    .escuela-tallers .tallers-text-cards {
+        max-width: calc(100% - 150px);
+        margin-left: auto;
+    }
+
+    .escuela-tallers .tallers-text-cards h2 {
+        font-size: 35px;
+    }
+
+    .escuela-tallers .tallers-text-cards p {
+        font-size: 18px;
+    }
+
+    .escuela-tallers .tallers-text-cards .formaction-cards-wrap>div {
+        min-width: 350px;
+    }
+
+
+
+    .escuela-tallers .tallers-text-cards .formaction-card .taller-card-text {
+        padding: 20px 20px;
+        padding-right: 20px;
+    }
+
+    .escuela-tallers .tallers-text-cards .formaction-card .taller-card-text h3 {
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .escuela-tallers {
+        padding: 10px;
+    }
+
+    .escuela-tallers .tallers-text-cards {
+        max-width: calc(100% - 0px);
+        margin-left: auto;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-cards-wrap>div {
+        min-width: auto;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .escuela-tallers .tallers-text-cards h2 {
+        font-size: 20px;
+    }
+
+    .escuela-tallers .tallers-text-cards p {
+        font-size: 14px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card {
+        border-radius: 15px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
+        font-size: 18px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text p {
+        margin-bottom: 10px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
+        padding: 6px 26px;
+        font-size: 14px;
+    }
+
+
+    .escuela-tallers .dots {
+        margin-top: 0px;
+    }
+
+
+    .escuela-tallers .dots ul li button {
+        all: unset;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #C1C4E8;
+        cursor: pointer;
+    }
+
+    .escuela-tallers .dots ul li button.active {
+        background-color: #594EE6;
+    }
+
+    .escuela-tallers .view-more-btn {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+/* 
+=====================================
+    TALLERS SECTION END
+=====================================
+*/
+
+/* 
+=====================================
+    TALLERS SECTION START
+=====================================
+*/
+.escuela-formaction {
+    margin: 50px 0;
+
+}
+
+.escuela-formaction .formaction-text-cards {
+    max-width: calc(100% - 250px);
+    margin-left: auto;
+}
+
+.escuela-formaction .formaction-text-cards h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #594EE6;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+}
+
+.escuela-formaction .formaction-text-cards p {
+    font-size: 20px;
+    text-align: justify;
+    color: #041E42;
+    font-family: 'Figtree';
+    margin-bottom: 40px;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
+    min-width: 400px;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-card {
+    border-radius: 20px;
+    background-color: #C1C4E8;
+    overflow: hidden;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-card img {
+    width: 100%;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text {
+    padding: 20px 30px;
+    padding-right: 50px;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #594EE6;
+    line-height: 1.5;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
+    padding: 8px 30px;
+    border-radius: 40px;
+    border: 1px solid #041E42;
+    background-color: #10CBA9;
+    font-size: 16px;
+    color: #041E42;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text span {
+    display: block;
+    margin-top: 10px;
+    color: #041E428C;
+    font-size: 14px;
+}
+
+
+
+.escuela-formaction .dots {
+    margin-top: 30px;
+}
+
+.escuela-formaction .dots ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.escuela-formaction .dots ul li button {
+    all: unset;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #C1C4E8;
+    cursor: pointer;
+}
+
+.escuela-formaction .dots ul li button.active {
+    background-color: #594EE6;
+}
+
+.escuela-formaction .view-more-btn {
+    padding: 12px 35px;
+    background-color: #594EE6;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+@media (max-width: 991px) {
+    .escuela-formaction .formaction-text-cards {
+        max-width: calc(100% - 150px);
+        margin-left: auto;
+    }
+
+    .escuela-formaction .formaction-text-cards h2 {
+        font-size: 35px;
+    }
+
+    .escuela-formaction .formaction-text-cards p {
+        font-size: 18px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
+        min-width: 350px;
+    }
+
+
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text {
+        padding: 20px 20px;
+        padding-right: 20px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .escuela-formaction {
+        padding: 10px;
+    }
+
+    .escuela-formaction .formaction-text-cards {
+        max-width: calc(100% - 0px);
+        margin-left: auto;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
+        min-width: auto;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .escuela-formaction .formaction-text-cards h2 {
+        font-size: 20px;
+    }
+
+    .escuela-formaction .formaction-text-cards p {
+        font-size: 14px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card {
+        border-radius: 15px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
+        font-size: 18px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text p {
+        margin-bottom: 10px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
+        padding: 6px 26px;
+        font-size: 14px;
+    }
+
+
+    .escuela-formaction .dots {
+        margin-top: 0px;
+    }
+
+
+    .escuela-formaction .dots ul li button {
+        all: unset;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #C1C4E8;
+        cursor: pointer;
+    }
+
+    .escuela-formaction .dots ul li button.active {
+        background-color: #594EE6;
+    }
+
+    .escuela-formaction .view-more-btn {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+}
+
+/* 
+=====================================
+    TALLERS SECTION END
+=====================================
+*/
+
+/* 
+=====================================
+    WIBENAR SECTION START
+=====================================
+*/
+.escuela-webinars {
+    padding: 60px 10px;
+    background-color: #594EE6C7;
+}
+
+.escuela-webinars h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+}
+
+.escuela-webinars p {
+    font-size: 20px;
+    text-align: justify;
+    color: #FBFBFD;
+    font-family: 'Figtree';
+    margin-bottom: 20px;
+}
+
+.escuela-webinars .webinar-card {
+    border-radius: 32px;
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.escuela-webinars .webinar-card .card-img img {
+    width: 100%;
+}
+
+.escuela-webinars .webinar-card .webinar-card-text {
+    margin-top: 20px;
+}
+
+.escuela-webinars .webinar-card .webinar-card-text .text {
+    padding: 20px 40px;
+}
+
+.escuela-webinars .webinar-card .webinar-card-text .text p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #041E42;
+    margin: 0;
+}
+
+.escuela-webinars .webinar-card .webinar-card-text a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #594EE6;
+    border-radius: 50px;
+    color: #ffff;
+    font-size: 16px;
+
+}
+
+.escuela-webinars .webinar-btn {
+    padding: 12px 35px;
+    background-color: #8AE6DE;
+    color: #594EE6;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+@media (max-width: 991px) {
+    .escuela-webinars h2 {
+        font-size: 35px;
+    }
+
+    .escuela-webinars p {
+        font-size: 18px;
+    }
+
+    .escuela-webinars .webinar-card {
+        padding-bottom: 10px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text .text {
+        padding: 20px 20px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text .text p {
+        font-size: 20px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text a {
+        display: inline-block;
+        padding: 10px 25px;
+        font-size: 14px;
+        white-space: nowrap;
+
+    }
+
+    .escuela-webinars .webinar-btn {
+        padding: 12px 35px;
+        background-color: #8AE6DE;
+        color: #594EE6;
+        font-size: 18px;
+        border-radius: 50px;
+        font-weight: 500;
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .escuela-webinars {
+        padding: 40px 0px;
+    }
+
+    .escuela-webinars h2 {
+        font-size: 25px;
+    }
+
+    .escuela-webinars p {
+        font-size: 14px;
+    }
+
+    .escuela-webinars .webinar-card {
+        border-radius: 20px;
+    }
+
+
+    .escuela-webinars .webinar-card .webinar-card-text .text {
+        padding: 20px 20px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text .text p {
+        font-size: 14px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text a {
+        display: inline-block;
+        padding: 7px 25px;
+        font-size: 14px;
+
+    }
+
+    .escuela-webinars .webinar-btn {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+}
+
+/* 
+=====================================
+    WIBENAR SECTION END
+=====================================
+*/
+
+
+/* 
+=====================================
+    COMUNIDADES SECTION START
+=====================================
+*/
+.escuela-comunidades-section {
+    margin-bottom: 50px;
+}
+
+.escuela-comunidades-section .comunidades-header {
+    background-color: #ACE3DF;
+    padding: 30px 10px;
+    margin-bottom: 50px;
+}
+
+.escuela-comunidades-section .comunidades-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #041E42;
+}
+
+.escuela-comunidades-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #594EE6;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+}
+
+.escuela-comunidades-section p {
+    font-size: 20px;
+    text-align: justify;
+    color: #041E42;
+    font-family: 'Figtree';
+    margin: 25px 0;
+}
+
+.escuela-comunidades-section .comunidades-card {
+    background-color: #C1C4E8;
+    border-radius: 20px;
+    padding: 70px 100px;
+    margin-bottom: 20px;
+}
+
+.escuela-comunidades-section .comunidades-card.green {
+    background-color: #8AE6DE;
+}
+
+.escuela-comunidades-section .comunidades-card h2 {
+    margin-bottom: 0;
+    color: #041E42;
+}
+
+.escuela-comunidades-section .comunidades-card a {
+    font-size: 16px;
+    background-color: #594EE6;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+@media (max-width: 991px) {
+
+    .escuela-comunidades-section .comunidades-header {
+        padding: 30px 10px;
+    }
+
+    .escuela-comunidades-section .comunidades-header h1 {
+        font-size: 38px;
+    }
+
+
+
+    .escuela-comunidades-section p {
+        font-size: 18px;
+    }
+
+    .escuela-comunidades-section .comunidades-card {
+        background-color: #C1C4E8;
+        border-radius: 20px;
+        padding: 40px 60px;
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+
+@media (max-width: 575px) {
+
+    .escuela-comunidades-section .comunidades-header {
+        padding: 30px 10px;
+    }
+
+    .escuela-comunidades-section .comunidades-header h1 {
+        font-size: 25px;
+    }
+    
+    .escuela-comunidades-section  h2 {
+        font-size: 25px;
+    }
+
+
+    .escuela-comunidades-section p {
+        font-size: 14px;
+    }
+
+    .escuela-comunidades-section .comunidades-card {
+        background-color: #C1C4E8;
+        border-radius: 10px;
+        padding: 15px 30px;
+        margin-bottom: 20px;
+    }
+    .escuela-comunidades-section .comunidades-card h2{
+        font-size: 16px;
+    }
+    .escuela-comunidades-section .comunidades-card a{
+        font-size: 14px;
+        padding: 7px;
+    }
+
+
+}
+
+
+/* 
+=====================================
+    COMUNIDADES SECTION END
+=====================================
+*/
