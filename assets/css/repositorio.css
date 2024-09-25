@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5XyEAk4A.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5ZyEA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* latin-ext */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQkEz-Eec.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQk8z-A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+
+
+/* REPOSITORIO HEADER SECTION START */
+.repositorio-header {
+    background-color: #594EE6;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.repositorio-header h1 {
+    font-size: 45px;
+    color: #C1C4E8;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+}
+
+
+@media (max-width: 991px) {
+
+    .repositorio-header h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .repositorio-header {
+        margin-bottom: 20px;
+    }
+
+    .repositorio-header h1 {
+        font-size: 25px;
+    }
+}
+
+
+/* REPOSITORIO HEADER SECTION END */
+
+/*  REPOSITORIO TEXT SECTION START */
+.repositorio-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Figtree';
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .repositorio-text p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .repositorio-text p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+/*  REPOSITORIO TEXT SECTION END */
+
+/*  ESTUDIO SECTION START */
+.estudio-section {
+    margin: 50px 0;
+}
+
+.estudio-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #594EE6;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+}
+
+.estudio-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Figtree';
+    text-align: justify;
+}
+
+
+.estudio-section .estudio-cards .estudio-card {
+    border: 4px solid #594EE6;
+    padding: 50px 50px;
+    border-radius: 30px;
+    background-color: #C1C4E8;
+}
+
+.estudio-section .estudio-cards .estudio-card .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.estudio-section .estudio-cards .estudio-card .user .user-porfile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.estudio-section .estudio-cards .estudio-card .user .user-porfile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.estudio-section .estudio-cards .estudio-card .user .user-name {
+    margin-left: 20px;
+}
+
+.estudio-section .estudio-cards .estudio-card .user .user-name h6 {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #041E42;
+    font-size: 20px;
+    font-family: 'Red Hat Display';
+    letter-spacing: 1px;
+}
+
+.estudio-section .estudio-cards .estudio-card .user .user-name span {
+    font-size: 14px;
+    color: #041E42;
+    font-weight: 500;
+    font-family: 'Figtree';
+}
+
+.estudio-section .estudio-cards .estudio-card h3 {
+    font-size: 25px;
+    color: #594EE6;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+}
+
+.estudio-section .estudio-cards .estudio-card p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Figtree';
+    text-align: justify;
+}
+
+.estudio-section .estudio-cards .estudio-card .label {
+    color: #C1C4E8;
+    background-color: #594EE6;
+    font-size: 18px;
+    display: inline-block;
+    padding: 6px 30px;
+    border-radius: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.estudio-section .estudio-cards .estudio-card .views {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.estudio-section .estudio-cards .estudio-card .views p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 80px;
+}
+
+.estudio-section .estudio-cards .estudio-card .views p i {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+
+
+@media (max-width: 991px) {
+    .estudio-section h2 {
+        font-size: 25px;
+    }
+
+    .estudio-section p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+
+    .estudio-section .estudio-cards .estudio-card {
+        padding: 30px 30px;
+        border-radius: 20px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user {
+        margin-bottom: 20px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-porfile {
+        width: 50px;
+        height: 50px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-name h6 {
+        font-size: 18px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card h3 {
+        font-size: 20px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .label {
+        font-size: 16px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views {
+        margin-top: 20px;
+
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views p {
+        margin-right: 50px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views p i {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .estudio-section {
+        margin: 30px 0;
+    }
+
+    .estudio-section h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .estudio-section p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+
+    .estudio-section .estudio-cards .estudio-card {
+        border: 2px solid #594EE6;
+        padding: 15px 15px;
+        border-radius: 15px;
+        background-color: #C1C4E8;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user {
+        margin-bottom: 10px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-porfile {
+        width: 40px;
+        height: 40px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-name {
+        margin-left: 10px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-name h6 {
+        font-size: 14px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-name span {
+        font-size: 12px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .label {
+        font-size: 14px;
+        padding: 4px 25px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views {
+        margin-top: 10px;
+
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views p {
+        margin-right: 40px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views p i {
+        font-size: 20px;
+        color: #fff;
+        margin-right: 10px;
+    }
+}
+
+
+/*  ESTUDIO SECTION END */
