@@ -79,6 +79,9 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+body {
+    background-color: #fff;
+}
 
 .wrapper {
     overflow: hidden;
@@ -92,6 +95,9 @@
 .cooperation p{
     font-size: 20px;
 } */
+.cooperation-hero .container {
+    max-width: 1420px
+}
 
 .cooperation-hero .coo-header {
     height: 100px;
@@ -101,7 +107,7 @@
 
 
 .cooperation-hero p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -113,7 +119,7 @@
 }
 
 .cooperation-hero .cooperacion-cards-wrap h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 40px;
@@ -129,24 +135,37 @@
 
 .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading {
     background-color: #C1C4E8;
-    padding: 50px;
+    padding: 50px 30px;
 }
 
 .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     color: #041E42;
+    font-family: 'Red Hat Display';
 }
 
 .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text {
     background-color: #E1E1E1;
-    padding: 20px;
+    padding: 40px 40px;
 }
 
 .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
-    font-size: 20px;
+    font-size: 28px;
+    color: #041E42;
+    font-family: 'Figtree';
 }
 
+
+@media (max-width: 1440px) {
+    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
+        font-size: 28px;
+    }
+
+    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 991px) {
     .cooperation-hero p {
@@ -184,6 +203,7 @@
 @media (max-width: 575px) {
     .cooperation-hero p {
         font-size: 14px;
+        text-align: center;
     }
 
     /* cooperacion-cards-wrap  start*/
@@ -195,7 +215,7 @@
     .cooperation-hero .cooperacion-cards-wrap h2 {
         font-size: 25px;
         margin-bottom: 20px;
-
+        text-align: center;
     }
 
     .cooperation-hero .cooperacion-cards-wrap .cooperacion-card {
@@ -209,6 +229,7 @@
 
     .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
         font-size: 18px;
+        text-align: center;
     }
 
     .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text {
@@ -218,6 +239,7 @@
 
     .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
         font-size: 14px;
+        text-align: center;
     }
 }
 
@@ -235,16 +257,20 @@
     padding: 60px 10px;
 }
 
+.Institucional .container {
+    max-width: 1420px;
+}
+
 .Institucional h2 {
     font-family: 'Red Hat Display';
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
 }
 
 .Institucional p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -273,21 +299,41 @@
 }
 
 .Institucional .institucional-cards .inst-card .card-text h3 {
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 24px;
     font-weight: 700;
     color: #041E42;
 }
 
 .Institucional .institucional-cards .inst-card .card-text a {
-    padding: 8px 30px;
+    padding: 8px 40px;
     border-radius: 60px;
     color: #fff;
     background-color: #594EE6;
     display: inline-block;
     font-family: 'Figtree';
-    font-size: 16px;
+    font-size: 28px;
 
+}
+
+@media (max-width: 1440px) {
+    .Institucional h2 {
+        font-size: 35px;
+    }
+
+    .Institucional p {
+        font-size: 20px;
+    }
+
+    .Institucional .institucional-cards .inst-card .card-text h3 {
+        font-size: 25px;
+    }
+
+    .Institucional .institucional-cards .inst-card .card-text a {
+        padding: 8px 30px;
+        font-size: 20px;
+
+    }
 }
 
 
@@ -335,10 +381,12 @@
 
     .Institucional h2 {
         font-size: 25px;
+        text-align: center;
     }
 
     .Institucional p {
         font-size: 14px;
+        text-align: center;
     }
 
     .Institucional .institucional-cards {

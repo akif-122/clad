@@ -79,6 +79,9 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+body {
+    background-color: #fff;
+}
 
 .container {
     margin: auto !important;
@@ -97,38 +100,67 @@
 
 .doc-section .doc-header {
     background-color: #ACE3DF;
-    min-height: 100px;
+    min-height: 150px;
     padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.doc-section .doc-header .container {
+    max-width: 1420px;
 }
 
 .doc-section .doc-header h1 {
     font-size: 45px;
     font-weight: 700;
-    margin-top: 20px;
     line-height: 52px;
     font-family: 'Red Hat Display';
+    color: #041E42;
 }
 
 .doc-section .doc-text {
     background-color: #C1C4E8;
-    padding: 20px 15px;
+    padding: 40px 15px;
+
+}
+
+.doc-section .doc-text .container {
+    max-width: 1420px;
 }
 
 .doc-section .doc-text p {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 27px;
     text-align: justify;
     line-height: 40px;
     font-family: 'Figtree';
 }
 
 .doc-section .doc-text h5 {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     font-weight: 700;
     line-height: 35px;
     font-family: 'Red Hat Display';
+    font-weight: 700;
 }
+
+
+@media (max-width: 1440px) {
+
+    .doc-section .doc-header h1 {
+        font-size: 35px;
+    }
+
+    .doc-section .doc-text p {
+        font-size: 20px;
+    }
+
+    .doc-section .doc-text h5 {
+        font-size: 24px;
+    }
+}
+
 
 @media (max-width: 991px) {
     .doc-section .doc-header h1 {
@@ -141,17 +173,20 @@
 
     .doc-section .doc-header h1 {
         font-size: 25px;
+        text-align: center;
     }
 
 
     .doc-section .doc-text p {
         font-size: 14px;
         line-height: 20px;
+        text-align: center;
     }
 
     .doc-section .doc-text h5 {
         font-size: 14px;
         line-height: 25px;
+        text-align: center;
     }
 }
 
@@ -179,16 +214,32 @@
 }
 
 .doc-banner-wrap .doc-banner {
-    max-width: 98%;
+    max-width: 1660px;
     margin: auto;
 
 }
 
+.doc-banner-wrap .doc-banner-text.container {
+    max-width: 1420px;
+}
+
 .doc-banner-wrap .doc-banner-text p {
-    font-size: 20px;
+    font-size: 27px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
+}
+
+.doc-banner-wrap .doc-banner-text p strong {
+    font-weight: 700;
+}
+
+@media (max-width: 1440px) {
+
+    .doc-banner-wrap .doc-banner-text p {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -209,6 +260,7 @@
 
     .doc-banner-wrap .doc-banner-text p {
         font-size: 14px;
+        text-align: center;
     }
 }
 
@@ -230,17 +282,25 @@
 
 .doc-explore-section {
     background-color: #D3D5F6;
-    padding: 70px 15px;
+    padding: 90px 15px;
     text-align: center;
 }
 
+
+.doc-explore-section .container {
+    max-width: 1420px;
+}
+
 .doc-explore-section h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
-    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 40px;
     font-family: 'Red Hat Display';
+    max-width: 1020px;
 }
+
 
 .input-wrap {
     position: relative;
@@ -286,21 +346,33 @@
 }
 
 .doc-explore-section .explore-tabs ul li a {
-    padding: 7px 16px;
+    padding: 8px 30px;
     gap: 10px;
     border-radius: 40px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
     border: 1px solid #594EE6;
-    font-size: 18px;
+    font-size: 27px;
     color: #594EE6;
     display: inline-block;
     font-family: 'Figtree';
 }
 
-.doc-explore-section .explore-tabs ul li a:is(.active, :hover) {
+.doc-explore-section .explore-tabs ul li a:is(.active) {
     color: #fff;
     background-color: #594EE6;
+}
+
+@media (max-width: 1440px) {
+    .doc-explore-section h2 {
+        font-size: 35px;
+    }
+
+    .doc-explore-section .explore-tabs ul li a {
+        padding: 5px 25px;
+        font-size: 20px;
+    }
+
 }
 
 
@@ -325,6 +397,7 @@
 
     .doc-explore-section h2 {
         font-size: 20px;
+        text-align: center;
     }
 
 
@@ -391,12 +464,19 @@
     text-align: center;
 }
 
+.declaration .container {
+    max-width: 1420px;
+}
+
 .declaration h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     margin-bottom: 20px;
     font-family: 'Red Hat Display';
+    color: #C1C4E8;
 }
+
+
 
 .declaration .declaration-tabs {
     margin: 60px 0;
@@ -408,10 +488,10 @@
 
 .declaration .declaration-tabs ul li a {
     background-color: #594EE6;
-    padding: 8px 30px;
+    padding: 10px 80px;
     border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
+    font-size: 27px;
+    color: #DCDEF0;
     font-family: 'Figtree';
     display: inline-block;
 }
@@ -422,6 +502,9 @@
     border-radius: 37px;
     border: 2px;
     padding: 25px;
+    max-width: 1660px;
+    border: 2px solid #594EE6;
+    margin: auto;
 }
 
 .declaration .card-banner .card-banner-text {
@@ -429,20 +512,26 @@
 }
 
 .declaration .card-banner .card-banner-text h2 {
-    font-size: 35px;
+    font-size: 40px;
+    color: #594EE6;
+    font-weight: 700;
     font-family: 'Red Hat Display';
 }
 
 .declaration .card-banner .card-banner-text h6 {
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 700;
     margin: 20px 0;
+    color: #041E42;
     font-family: 'Red Hat Display';
 }
 
 .declaration .card-banner .card-banner-text p {
-    font-size: 20px;
+    font-size: 28px;
     font-family: 'Figtree';
+    color: #041E42;
+    margin: 10px 0;
+    margin-bottom: 20px;
 }
 
 .declaration .card-banner .card-banner-text p strong {
@@ -451,12 +540,12 @@
 
 .declaration .card-banner .card-banner-text .card-banner-btns a {
     display: inline-block;
-    padding: 4px 20px;
+    padding: 4px 40px;
     color: #fff;
     border: 1px solid #594EE6;
     background-color: #594EE6;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 27px;
     font-family: 'Red Hat Display';
 }
 
@@ -470,15 +559,68 @@
 }
 
 .declaration .card-banner .card-banner-text .banner-counter li i {
-    font-size: 22px;
+    font-size: 45px;
     color: #fff;
-    margin-right: 8px;
+    margin-right: 15px;
 }
 
 .declaration .card-banner .card-banner-text .banner-counter li span {
-    font-size: 18px;
+    font-size: 24px;
     display: inline-block;
+    color: #594EE6;
 }
+
+@media (max-width: 1440px) {
+    .declaration .card-banner .card-banner-text h2 {
+        font-size: 35px;
+    }
+
+
+
+    .declaration h2 {
+        font-size: 35px;
+    }
+
+    .declaration .declaration-tabs ul li a {
+        padding: 8px 60px;
+        border-radius: 40px;
+        font-size: 20px;
+    }
+
+    .declaration .card-banner {
+        border-radius: 30px;
+    }
+
+
+    .declaration .card-banner .card-banner-text h2 {
+        font-size: 30px;
+    }
+
+
+    .declaration .card-banner .card-banner-text h6 {
+        font-size: 20px;
+    }
+
+    .declaration .card-banner .card-banner-text p {
+        font-size: 20px;
+    }
+
+
+    .declaration .card-banner .card-banner-text .card-banner-btns a {
+        padding: 4px 30px;
+        font-size: 20px;
+    }
+
+    .declaration .card-banner .card-banner-text .banner-counter li i {
+        font-size: 35px;
+    }
+
+    .declaration .card-banner .card-banner-text .banner-counter li span {
+        font-size: 20px;
+    }
+
+}
+
 
 
 @media (max-width: 991px) {
@@ -555,6 +697,7 @@
 
     .declaration h2 {
         font-size: 20px;
+        text-align: center;
     }
 
     .declaration .declaration-tabs {
@@ -584,14 +727,17 @@
     .declaration .card-banner .card-banner-text h2 {
         font-size: 20px;
         font-family: 'Red Hat Display';
+        text-align: center;
     }
 
     .declaration .card-banner .card-banner-text h6 {
         font-size: 16px;
+        text-align: center;
     }
 
     .declaration .card-banner .card-banner-text p {
         font-size: 14px;
+        text-align: center;
     }
 
 
@@ -645,13 +791,20 @@
     padding: 15px;
 }
 
+.clad-section .container {
+    max-width: 1420px;
+
+}
+
 .clad-section .clad-section-text h2 {
-    font-size: 35px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 40px;
     font-family: 'Red Hat Display';
 }
+
+
 
 .clad-section .clad-section-text .text-bar {
     color: #fff;
@@ -670,31 +823,56 @@
 }
 
 .clad-section .clad-section-text p {
-    font-size: 20px;
+    font-size: 28px;
     margin: 30px 0;
     text-align: justify;
     font-family: 'Figtree';
+    color: #041E42;
 }
 
 .clad-section .clad-section-text .clad-card {
     background-color: #D9D9D9;
-    padding: 30px 25px;
+    padding: 50px 50px;
     border-radius: 10px;
     margin-bottom: 20px;
 
 }
 
 .clad-section .clad-section-text .clad-card h4 {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 0;
     font-family: 'Red Hat Display';
+    color: #041E42;
 }
 
 .clad-section .clad-section-text .clad-card p {
     margin-bottom: 0;
     font-family: 'Figtree';
+    font-size: 28px;
+    color: #041E42;
 }
+
+@media (max-width: 1440px) {
+    .clad-section .clad-section-text h2 {
+        font-size: 35px;
+    }
+
+    .clad-section .clad-section-text .clad-card h4 {
+        font-size: 28px;
+    }
+
+    .clad-section .clad-section-text p {
+        font-size: 20px;
+    }
+
+
+    .clad-section .clad-section-text .clad-card p {
+        font-size: 20px;
+    }
+
+}
+
 
 @media (max-width: 575px) {
     .clad-section {
@@ -705,6 +883,7 @@
     .clad-section .clad-section-text h2 {
         font-size: 20px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .clad-section .clad-section-text .text-bar {
@@ -713,15 +892,18 @@
         border-radius: 5px;
         padding: 6px 15px;
         margin: 10px 0;
+        text-align: center;
     }
 
     .clad-section .clad-section-text .text-bar h4 {
         font-size: 18px;
+        text-align: center;
     }
 
     .clad-section .clad-section-text p {
         font-size: 14px;
         margin: 20px 0;
+        text-align: center;
     }
 
     .clad-section .clad-section-text .clad-card {
@@ -732,11 +914,13 @@
 
     .clad-section .clad-section-text .clad-card h4 {
         font-size: 18px;
+        text-align: center;
     }
 
     .clad-section .clad-section-text .clad-card p {
         font-size: 14px;
         margin-top: 10px;
+        text-align: center;
     }
 }
 
@@ -764,30 +948,57 @@
     padding: 60px 15px;
 }
 
-.about-section h2 {
-    font-size: 35px;
-    color: #594EE6;
-    font-weight: 700;
+.about-section .container {
+    max-width: 1420px;
 }
 
+.about-section h2 {
+    font-size: 52px;
+    color: #594EE6;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+}
+
+
+
 .about-section p {
-    font-size: 20px;
+    font-size: 28px;
     margin: 20px 0;
+    color: #041E42;
+    font-family: 'Figtree';
 }
 
 .about-section p strong {
     color: #594EE6;
+    font-weight: 700;
 }
 
 .about-section a {
     display: inline-block;
-    padding: 5px 25px;
+    padding: 5px 40px;
     border: 1px solid #594EE6;
     color: #fff;
     background-color: #594EE6;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 28px;
 }
+
+@media (max-width: 1440px) {
+    .about-section h2 {
+        font-size: 35px;
+    }
+
+    .about-section p {
+        font-size: 20px;
+    }
+
+    .about-section a {
+        padding: 5px 25px;
+        font-size: 20px;
+    }
+}
+
+
 
 @media (max-width: 575px) {
     .about-section {
@@ -797,10 +1008,12 @@
 
     .about-section h2 {
         font-size: 20px;
+        text-align: center;
     }
 
     .about-section p {
         font-size: 14px;
+        text-align: center;
     }
 
 
@@ -838,31 +1051,61 @@
     padding: 60px 15px;
 }
 
+.doc-official .container {
+    max-width: 1420px;
+}
+
 .doc-official h2 {
-    font-size: 35px;
+    font-size: 52px;
     color: #041E42;
     font-weight: 700;
+    font-family: 'Red Hat Display';
+    max-width: 1150px;
+}
+
+@media (max-width: 1440px) {
+    .doc-official h2 {
+        font-size: 35px;
+    }
 }
 
 .doc-official p {
-    font-size: 20px;
+    font-size: 28px;
     margin: 20px 0;
+    font-family: 'Figtree';
 }
 
 .doc-official p strong {
     color: #594EE6;
+    font-weight: 700;
 }
 
 .doc-official a {
     display: inline-block;
-    padding: 5px 25px;
+    padding: 5px 40px;
     border: 1px solid #594EE6;
     color: #fff;
     background-color: #594EE6;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 28px;
 }
 
+
+
+@media (max-width: 1440px) {
+    .doc-official h2 {
+        font-size: 35px;
+    }
+
+    .doc-official p {
+        font-size: 20px;
+    }
+
+    .doc-official a {
+        padding: 5px 25px;
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 575px) {
     .doc-official {
@@ -871,10 +1114,12 @@
 
     .doc-official h2 {
         font-size: 20px;
+        text-align: center;
     }
 
     .doc-official p {
         font-size: 14px;
+        text-align: center;
     }
 
 

@@ -97,13 +97,22 @@ body {
     margin-bottom: 50px;
 }
 
+.noticias .noticias-header .container {
+    max-width: 1420px;
+}
+
 .noticias .noticias-header h1 {
-    font-size: 45px;
+    font-size: 52px;
     color: #594EE6;
     font-weight: 700;
     font-family: 'Red Hat Display';
 }
 
+@media (max-width: 1440px) {
+    .noticias .noticias-header h1 {
+        font-size: 35px;
+    }
+}
 
 @media (max-width: 991px) {
     .noticias .noticias-header {
@@ -126,6 +135,7 @@ body {
 
     .noticias .noticias-header h1 {
         font-size: 25px;
+        text-align: center;
     }
 }
 
@@ -133,8 +143,13 @@ body {
 
 
 /*  explore section start */
+
+.noticias .noticias-explore .container {
+    max-width: 1420px;
+}
+
 .noticias .noticias-explore p {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 20px;
     font-family: 'Figtree';
     text-align: justify;
@@ -145,7 +160,7 @@ body {
 }
 
 .noticias .noticias-explore .explore h2 {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 40px;
     text-align: center;
     color: #594EE6;
@@ -211,11 +226,11 @@ body {
 }
 
 .noticias .noticias-explore .explore .tabs ul li a {
-    padding: 6px 20px;
+    padding: 6px 25px;
     border: 1px solid #9093B2;
     border-radius: 40px;
     color: #9093B2;
-    font-size: 16px;
+    font-size: 28px;
     display: inline-block;
     font-family: 'Figtree';
     font-weight: 400;
@@ -262,6 +277,7 @@ body {
     .noticias .noticias-explore p {
         font-size: 14px;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     .noticias .noticias-explore .explore {
@@ -271,6 +287,7 @@ body {
     .noticias .noticias-explore .explore h2 {
         font-size: 25px;
         margin-bottom: 30px;
+        text-align: center;
     }
 
     .noticias .noticias-explore .explore .input-wrap {
@@ -311,8 +328,12 @@ body {
     margin: 70px 0;
 }
 
+.destacades .container {
+    max-width: 1420px;
+}
+
 .destacades h2 {
-    font-size: 35px;
+    font-size: 52px;
     margin-bottom: 10px;
     color: #594EE6;
     font-family: 'Red Hat Display';
@@ -320,12 +341,17 @@ body {
 }
 
 .destacades p {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 40px;
     font-family: 'Figtree';
     text-align: justify;
 }
 
+
+.destacades .destacades-cards {
+    max-width: 1660px;
+    margin: auto;
+}
 
 .destacades .destacades-cards .deta-card .des-card-img img {
     width: 100%;
@@ -337,18 +363,18 @@ body {
 }
 
 .destacades .destacades-cards .deta-card .des-card-text .label {
-    padding: 4px 20px;
+    padding: 10px 20px;
     display: inline-block;
     border: 1px solid #594EE6;
     color: #594EE6;
     border-radius: 40px;
-    font-size: 18px;
+    font-size: 25px;
     margin: 15px 0;
     font-family: 'Figtree';
 }
 
 .destacades .destacades-cards .deta-card .des-card-text h3 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
     color: #041E42;
     margin-bottom: 30px;
@@ -357,11 +383,11 @@ body {
 
 .destacades .destacades-cards .deta-card .des-card-text a {
     display: inline-block;
-    padding: 4px 25px;
+    padding: 5px 40px;
     background-color: #594EE6;
     border-radius: 50px;
     color: #fff;
-    font-size: 16px;
+    font-size: 28px;
     font-family: 'Figtree';
 
 }
@@ -373,9 +399,38 @@ body {
     margin-top: 80px;
     color: #fff;
     background-color: #594EE6;
-    max-width: 400px;
-    font-size: 16px;
+    max-width: 600px;
+    font-size: 28px;
     border-radius: 60px;
+}
+
+@media (max-width : 1440px) {
+    .destacades h2 {
+        font-size: 35px;
+    }
+
+    .destacades p {
+        font-size: 20px;
+    }
+
+    .destacades .destacades-cards .deta-card .des-card-text .label {
+        font-size: 18px;
+    }
+
+    .destacades .destacades-cards .deta-card .des-card-text h3 {
+        font-size: 30px;
+    }
+
+    .destacades .destacades-cards .deta-card .des-card-text a {
+        font-size: 20px;
+
+    }
+
+    .destacades .des-btn {
+        padding: 10px 20px;
+        max-width: 400px;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -422,11 +477,13 @@ body {
 
     .destacades h2 {
         font-size: 25px;
+        text-align: center;
     }
 
     .destacades p {
         font-size: 14px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
 
@@ -447,6 +504,7 @@ body {
     .destacades .destacades-cards .deta-card .des-card-text h3 {
         font-size: 16px;
         margin-bottom: 20px;
+
     }
 
     .destacades .destacades-cards .deta-card .des-card-text a {
@@ -475,7 +533,7 @@ body {
 }
 
 .anteriors h2 {
-    font-size: 35px;
+    font-size: 52px;
     margin-bottom: 10px;
     color: #594EE6;
     font-family: 'Red Hat Display';
@@ -483,7 +541,7 @@ body {
 }
 
 .anteriors p {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 40px;
     font-family: 'Figtree';
     text-align: justify;
@@ -499,15 +557,20 @@ body {
     margin: 15px 0;
 }
 
+.anteriors .timeline .timeline-header .container {
+    max-width: 1420px;
+}
+
 .anteriors .timeline .timeline-header .timeline-header-text {
     display: flex;
     align-items: center;
+    min-height: 180px;
 
 }
 
 .anteriors .timeline .timeline-header .timeline-header-text .icon {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -522,7 +585,7 @@ body {
 }
 
 .anteriors .timeline .timeline-header .timeline-header-text h3 {
-    font-size: 30px;
+    font-size: 52px;
     margin-left: 20px;
     font-weight: 700;
     margin-bottom: 0;
@@ -545,6 +608,11 @@ body {
 
 /* TIMELINE CARDS */
 
+.timeline-card-container {
+    max-width: 1420px;
+    margin: auto;
+}
+
 .anteriors .timeline-cards {
     margin: 80px 0;
 }
@@ -560,18 +628,18 @@ body {
 }
 
 .anteriors .timeline-cards .timeline-card .timeline-card-text .label {
-    padding: 4px 20px;
+    padding: 10px 20px;
     display: inline-block;
     border: 1px solid #594EE6;
     color: #594EE6;
     border-radius: 40px;
-    font-size: 18px;
+    font-size: 25px;
     margin: 15px 0;
     font-family: 'Figtree';
 }
 
 .anteriors .timeline-cards .timeline-card .timeline-card-text h3 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
     color: #041E42;
     margin-bottom: 20px;
@@ -579,7 +647,7 @@ body {
 }
 
 .anteriors .timeline-cards .timeline-card .timeline-card-text p {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 40px;
     font-family: 'Figtree';
     text-align: justify;
@@ -587,11 +655,11 @@ body {
 
 .anteriors .timeline-cards .timeline-card .timeline-card-text a {
     display: inline-block;
-    padding: 4px 25px;
+    padding: 5px 30px;
     background-color: #594EE6;
     border-radius: 50px;
     color: #fff;
-    font-size: 16px;
+    font-size: 28px;
     font-family: 'Figtree';
 
 }
@@ -601,11 +669,62 @@ body {
     color: #fff;
     background-color: #594EE6;
     border-radius: 60px;
-    font-size: 16px;
+    font-size: 28px;
     padding: 15px 30px;
     display: block;
     max-width: 300px;
     margin: 40px auto;
+}
+
+@media (max-width: 1440px) {
+    .anteriors h2 {
+        font-size: 35px;
+    }
+
+    .anteriors p {
+        font-size: 20px;
+    }
+
+
+    .anteriors .timeline .timeline-header .timeline-header-text .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .anteriors .timeline .timeline-header .timeline-header-text .icon i {
+        font-size: 28px;
+    }
+
+    .anteriors .timeline .timeline-header .timeline-header-text h3 {
+        font-size: 35px;
+    }
+
+
+    /* TIMELINE CARDS */
+
+
+    .anteriors .timeline-cards .timeline-card .timeline-card-text .label {
+        font-size: 20px;
+    }
+
+    .anteriors .timeline-cards .timeline-card .timeline-card-text h3 {
+        font-size: 30px;
+    }
+
+    .anteriors .timeline-cards .timeline-card .timeline-card-text p {
+        font-size: 20px;
+    }
+
+    .anteriors .timeline-cards .timeline-card .timeline-card-text a {
+        padding: 5px 25px;
+        font-size: 20px;
+
+    }
+
+
+    .anteriors .anteriors-btn {
+        font-size: 20px;
+    }
 }
 
 
@@ -635,6 +754,10 @@ body {
 
 
 
+    .anteriors .timeline .timeline-header .timeline-header-text {
+        min-height: 130px;
+
+    }
 
     /* TIMELINE CARDS */
 
@@ -683,13 +806,19 @@ body {
 
     .anteriors h2 {
         font-size: 25px;
+        text-align: center;
     }
 
     .anteriors p {
         font-size: 14px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
+    .anteriors .timeline .timeline-header .timeline-header-text {
+        min-height: 100px;
+
+    }
 
     .anteriors .timeline .timeline-header {
         padding: 20px 10px;

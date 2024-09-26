@@ -88,19 +88,29 @@
 /* REPOSITORIO HEADER SECTION START */
 .repositorio-header {
     background-color: #594EE6;
-    min-height: 100px;
+    min-height: 160px;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
+.repositorio-header .container {
+    max-width: 1420px;
+}
+
 .repositorio-header h1 {
-    font-size: 45px;
+    font-size: 52px;
     color: #C1C4E8;
     font-weight: 700;
     font-family: 'Red Hat Display';
 }
 
+@media (max-width: 1440px) {
+
+    .repositorio-header h1 {
+        font-size: 45px;
+    }
+}
 
 @media (max-width: 991px) {
 
@@ -117,6 +127,7 @@
 
     .repositorio-header h1 {
         font-size: 25px;
+        text-align: center;
     }
 }
 
@@ -124,11 +135,21 @@
 /* REPOSITORIO HEADER SECTION END */
 
 /*  REPOSITORIO TEXT SECTION START */
+.repositorio-text .container {
+    max-width: 1420px;
+}
+
 .repositorio-text p {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 40px;
     font-family: 'Figtree';
     text-align: justify;
+}
+
+@media (max-width: 1420px) {
+    .repositorio-text p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -138,10 +159,11 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 575px) {
     .repositorio-text p {
         font-size: 14px;
         margin-bottom: 20px;
+        text-align: center;
     }
 }
 
@@ -152,8 +174,12 @@
     margin: 50px 0;
 }
 
+.estudio-section .container {
+    max-width: 1420px;
+}
+
 .estudio-section h2 {
-    font-size: 35px;
+    font-size: 52px;
     margin-bottom: 20px;
     color: #594EE6;
     font-family: 'Red Hat Display';
@@ -161,7 +187,7 @@
 }
 
 .estudio-section p {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 40px;
     font-family: 'Figtree';
     text-align: justify;
@@ -182,8 +208,8 @@
 }
 
 .estudio-section .estudio-cards .estudio-card .user .user-porfile {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -202,20 +228,20 @@
     margin-bottom: 0;
     font-weight: 700;
     color: #041E42;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Red Hat Display';
     letter-spacing: 1px;
 }
 
 .estudio-section .estudio-cards .estudio-card .user .user-name span {
-    font-size: 14px;
+    font-size: 24px;
     color: #041E42;
     font-weight: 500;
     font-family: 'Figtree';
 }
 
 .estudio-section .estudio-cards .estudio-card h3 {
-    font-size: 25px;
+    font-size: 40px;
     color: #594EE6;
     font-weight: 700;
     margin-bottom: 20px;
@@ -223,7 +249,7 @@
 }
 
 .estudio-section .estudio-cards .estudio-card p {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 30px;
     font-family: 'Figtree';
     text-align: justify;
@@ -232,9 +258,9 @@
 .estudio-section .estudio-cards .estudio-card .label {
     color: #C1C4E8;
     background-color: #594EE6;
-    font-size: 18px;
+    font-size: 30px;
     display: inline-block;
-    padding: 6px 30px;
+    padding: 14px 30px;
     border-radius: 60px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -254,10 +280,62 @@
     margin-right: 80px;
 }
 
+.estudio-section .estudio-cards .estudio-card .views p span {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Figtree';
+}
+
 .estudio-section .estudio-cards .estudio-card .views p i {
     font-size: 30px;
     color: #fff;
     margin-right: 15px;
+}
+
+@media (max-width: 1440px) {
+    .estudio-section h2 {
+        font-size: 35px;
+    }
+
+    .estudio-section p {
+        font-size: 20px;
+    }
+
+
+
+    .estudio-section .estudio-cards .estudio-card .user .user-porfile {
+        width: 60px;
+        height: 60px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-name h6 {
+        font-size: 25px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .user .user-name span {
+        font-size: 18px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card h3 {
+        font-size: 30px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card p {
+        font-size: 20px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .label {
+        font-size: 20px;
+    }
+
+
+    .estudio-section .estudio-cards .estudio-card .views p span {
+        font-size: 20px;
+    }
+
+    .estudio-section .estudio-cards .estudio-card .views p i {
+        font-size: 20px;
+    }
 }
 
 
@@ -328,11 +406,13 @@
     .estudio-section h2 {
         font-size: 25px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .estudio-section p {
         font-size: 14px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
 

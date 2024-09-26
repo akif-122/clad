@@ -96,6 +96,10 @@ body {
     padding: 60px 10px;
 }
 
+.escuela-hero-section .container {
+    max-width: 1420px;
+}
+
 .escuela-hero-section .banner {
     margin-bottom: 20px;
 }
@@ -105,18 +109,28 @@ body {
 }
 
 .escuela-hero-section p {
-    font-size: 20px;
+    font-size: 28px;
     font-family: 'Figtree';
     color: #041E42;
     text-align: justify;
 }
 
 .escuela-hero-section h5 {
-    font-size: 20px;
+    font-size: 28px;
     font-family: 'Red Hat Display';
     font-weight: 600;
     color: #041E42;
     text-align: justify;
+}
+
+@media (max-width: 1440px) {
+    .escuela-hero-section p {
+        font-size: 20px;
+    }
+
+    .escuela-hero-section h5 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -136,10 +150,12 @@ body {
 
     .escuela-hero-section p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-hero-section h5 {
         font-size: 14px;
+        text-align: center;
     }
 }
 
@@ -159,8 +175,12 @@ body {
     padding: 10px;
 }
 
+.escuela-cursos .container {
+    max-width: 1420px;
+}
+
 .escuela-cursos .cursos-text h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -172,14 +192,14 @@ body {
 }
 
 .escuela-cursos .cursos-text p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
 }
 
 .escuela-cursos .cursos-banner {
-    max-width: 98%;
+    max-width: 1660px;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -205,6 +225,16 @@ body {
 
 .escuela-cursos .dots ul li button.active {
     background-color: #594EE6;
+}
+
+@media (max-width: 1440px) {
+    .escuela-cursos .cursos-text h2 {
+        font-size: 35px;
+    }
+
+    .escuela-cursos .cursos-text p {
+        font-size: 20px;
+    }
 }
 
 
@@ -239,6 +269,7 @@ body {
     .escuela-cursos .cursos-text h2 {
         font-size: 20px;
         font-family: 'Red Hat Display';
+        text-align: center  ;
     }
 
     .escuela-cursos .cursos-text {
@@ -247,6 +278,7 @@ body {
 
     .escuela-cursos .cursos-text p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-cursos .cursos-banner {
@@ -281,12 +313,12 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards {
-    max-width: calc(100% - 250px);
+    max-width: calc(100% - 400px);
     margin-left: auto;
 }
 
 .escuela-tallers .tallers-text-cards h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -294,7 +326,7 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -302,7 +334,7 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards .taller-cards-wrap>div {
-    min-width: 400px;
+    min-width: 600px;
 }
 
 .escuela-tallers .tallers-text-cards .taller-card {
@@ -321,7 +353,7 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 600;
     color: #594EE6;
     line-height: 1.5;
@@ -329,11 +361,11 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
-    padding: 8px 30px;
+    padding: 10px 40px;
     border-radius: 40px;
     border: 1px solid #041E42;
     background-color: #10CBA9;
-    font-size: 16px;
+    font-size: 28px;
     color: #041E42;
     font-weight: 600;
     display: inline-block;
@@ -344,7 +376,7 @@ body {
     display: block;
     margin-top: 10px;
     color: #041E428C;
-    font-size: 14px;
+    font-size: 24px;
     font-family: 'Figtree';
 }
 
@@ -378,12 +410,55 @@ body {
 }
 
 .escuela-tallers .view-more-btn {
-    padding: 12px 35px;
+    padding: 12px 40px;
     background-color: #594EE6;
-    font-size: 16px;
+    font-size: 28px;
     color: #fff;
     border-radius: 50px;
     display: inline-block;
+    transform: translateY(10px);
+}
+
+
+@media (max-width: 1440px) {
+    .escuela-tallers .tallers-text-cards {
+        max-width: calc(100% - 250px);
+    }
+
+    .escuela-tallers .tallers-text-cards h2 {
+        font-size: 35px;
+    }
+
+    .escuela-tallers .tallers-text-cards p {
+        font-size: 20px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-cards-wrap>div {
+        min-width: 400px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text {
+        padding: 20px 20px;
+        padding-right: 20px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
+        font-size: 30px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
+        font-size: 20px;
+    }
+
+    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text span {
+        font-size: 18px;
+    }
+
+    .escuela-tallers .view-more-btn {
+        padding: 12px 35px;
+        font-size: 20px;
+        transform: translateY(0px);
+    }
 }
 
 
@@ -439,10 +514,12 @@ body {
 @media (max-width: 575px) {
     .escuela-tallers .tallers-text-cards h2 {
         font-size: 20px;
+        text-align: center;
     }
 
     .escuela-tallers .tallers-text-cards p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-tallers .tallers-text-cards .taller-card {
@@ -509,12 +586,12 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards {
-    max-width: calc(100% - 250px);
+    max-width: calc(100% - 400px);
     margin-left: auto;
 }
 
 .escuela-formaction .formaction-text-cards h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -522,7 +599,7 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -530,7 +607,7 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
-    min-width: 400px;
+    min-width: 600px;
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card {
@@ -549,19 +626,26 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 600;
     color: #594EE6;
     line-height: 1.5;
     font-family: 'Red Hat Display';
 }
 
+.escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h5 {
+    font-size: 30px;
+    color: #041E42A1;
+    font-family: 'Figtree';
+    font-weight: 700;
+}
+
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
-    padding: 8px 30px;
+    padding: 10px 40px;
     border-radius: 40px;
     border: 1px solid #041E42;
     background-color: #10CBA9;
-    font-size: 16px;
+    font-size: 28px;
     color: #041E42;
     font-weight: 600;
     display: inline-block;
@@ -572,7 +656,7 @@ body {
     display: block;
     margin-top: 10px;
     color: #041E428C;
-    font-size: 14px;
+    font-size: 28px;
     font-family: 'Figtree';
 }
 
@@ -606,15 +690,61 @@ body {
 }
 
 .escuela-formaction .view-more-btn {
-    padding: 12px 35px;
+    padding: 12px 40px;
     background-color: #594EE6;
-    font-size: 16px;
+    font-size: 28px;
     color: #fff;
     border-radius: 50px;
     display: inline-block;
     font-family: 'Figtree';
 
 }
+
+
+@media (max-width: 1440px) {
+    .escuela-formaction .formaction-text-cards {
+        max-width: calc(100% - 250px);
+        margin-left: auto;
+    }
+
+    .escuela-formaction .formaction-text-cards h2 {
+        font-size: 35px;
+    }
+
+    .escuela-formaction .formaction-text-cards p {
+        font-size: 20px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
+        min-width: 400px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text {
+        padding: 20px 20px;
+        padding-right: 20px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
+        font-size: 30px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
+        padding: 8px 35px;
+        font-size: 20px;
+    }
+
+    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text span {
+        font-size: 20px;
+    }
+
+
+    .escuela-formaction .view-more-btn {
+        padding: 10px 35px;
+        font-size: 20px;
+
+    }
+}
+
 
 @media (max-width: 991px) {
     .escuela-formaction .formaction-text-cards {
@@ -668,10 +798,12 @@ body {
 @media (max-width: 575px) {
     .escuela-formaction .formaction-text-cards h2 {
         font-size: 20px;
+        text-align: center;
     }
 
     .escuela-formaction .formaction-text-cards p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-formaction .formaction-text-cards .formaction-card {
@@ -732,8 +864,12 @@ body {
     background-color: #594EE6C7;
 }
 
+.escuela-webinars .container {
+    max-width: 1420px;
+}
+
 .escuela-webinars h2 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
@@ -741,7 +877,7 @@ body {
 }
 
 .escuela-webinars p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #FBFBFD;
     font-family: 'Figtree';
@@ -768,7 +904,7 @@ body {
 }
 
 .escuela-webinars .webinar-card .webinar-card-text .text p {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 600;
     color: #041E42;
     margin: 0;
@@ -776,25 +912,57 @@ body {
 
 .escuela-webinars .webinar-card .webinar-card-text a {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 35px;
     background-color: #594EE6;
     border-radius: 50px;
     color: #ffff;
-    font-size: 16px;
+    font-size: 28px;
     font-family: 'Figtree';
 
 }
 
 .escuela-webinars .webinar-btn {
-    padding: 12px 35px;
+    padding: 12px 40px;
     background-color: #8AE6DE;
     color: #594EE6;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 28px;
     border-radius: 50px;
     font-weight: 500;
     margin-top: 20px;
     display: inline-block;
     font-family: 'Red Hat Display';
+}
+
+
+@media (max-width: 1440px) {
+    .escuela-webinars h2 {
+        font-size: 35px;
+    }
+
+    .escuela-webinars p {
+        font-size: 20px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text .text {
+        padding: 20px 30px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text .text p {
+        font-size: 20px;
+    }
+
+    .escuela-webinars .webinar-card .webinar-card-text a {
+        display: inline-block;
+        padding: 8px 25px;
+        font-size: 20px;
+
+    }
+
+    .escuela-webinars .webinar-btn {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
 }
 
 
@@ -847,10 +1015,12 @@ body {
 
     .escuela-webinars h2 {
         font-size: 25px;
+        text-align: center;
     }
 
     .escuela-webinars p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-webinars .webinar-card {
@@ -864,6 +1034,7 @@ body {
 
     .escuela-webinars .webinar-card .webinar-card-text .text p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-webinars .webinar-card .webinar-card-text a {
@@ -895,21 +1066,29 @@ body {
     margin-bottom: 50px;
 }
 
+.escuela-comunidades-section .container {
+    max-width: 1420px;
+}
+
 .escuela-comunidades-section .comunidades-header {
     background-color: #ACE3DF;
     padding: 30px 10px;
     margin-bottom: 50px;
+    min-height: 140px;
+    display: flex;
+    align-items: center;
 }
 
 .escuela-comunidades-section .comunidades-header h1 {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: 700;
     color: #041E42;
     font-family: 'Red Hat Display';
+    margin: 0;
 }
 
 .escuela-comunidades-section h2 {
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -917,7 +1096,7 @@ body {
 }
 
 .escuela-comunidades-section p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -941,14 +1120,37 @@ body {
 }
 
 .escuela-comunidades-section .comunidades-card a {
-    font-size: 16px;
+    font-size: 28px;
     background-color: #594EE6;
     color: #fff;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     border-radius: 60px;
 }
+
+@media (max-width: 991px) {
+    .escuela-comunidades-section .comunidades-header h1 {
+        font-size: 40px;
+    }
+
+    .escuela-comunidades-section h2 {
+        font-size: 34px;
+    }
+
+    .escuela-comunidades-section p {
+        font-size: 20px;
+    }
+
+    .escuela-comunidades-section .comunidades-card a {
+        font-size: 20px;
+        padding: 8px;
+        border-radius: 60px;
+    }
+
+}
+
+
 
 @media (max-width: 991px) {
 
@@ -985,15 +1187,18 @@ body {
 
     .escuela-comunidades-section .comunidades-header h1 {
         font-size: 25px;
+        text-align: center;
     }
 
     .escuela-comunidades-section h2 {
         font-size: 25px;
+        text-align: center;
     }
 
 
     .escuela-comunidades-section p {
         font-size: 14px;
+        text-align: center;
     }
 
     .escuela-comunidades-section .comunidades-card {
