@@ -87,6 +87,42 @@ body {
     overflow: hidden;
 }
 
+
+.my_container {
+    padding: 24px 140px;
+}
+
+@media (max-width: 992px) {
+    .my_container {
+        padding: 15px !important;
+    }
+}
+
+.heading-1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Red Hat Display;
+}
+
+.body-1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Figtree;
+}
+
+.heading-3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Red Hat Display;
+}
+
+
+.text-azul-indigo {
+    color: #041e42;
+}
+
+
+
 /* 
 =====================================
     HERO TEXT SECTION START
@@ -109,52 +145,30 @@ body {
 }
 
 .escuela-hero-section p {
-    font-size: 28px;
     font-family: 'Figtree';
     color: #041E42;
     text-align: justify;
 }
 
 .escuela-hero-section h5 {
-    font-size: 28px;
     font-family: 'Red Hat Display';
     font-weight: 600;
     color: #041E42;
     text-align: justify;
 }
 
-@media (max-width: 1440px) {
-    .escuela-hero-section p {
-        font-size: 20px;
-    }
 
-    .escuela-hero-section h5 {
-        font-size: 20px;
-    }
-}
 
 @media (max-width: 991px) {
-    .escuela-hero-section p {
-        font-size: 18px;
-    }
-
-    .escuela-hero-section h5 {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 575px) {
     .escuela-hero-section {
         padding: 30px 10px;
     }
 
     .escuela-hero-section p {
-        font-size: 14px;
         text-align: center;
     }
 
     .escuela-hero-section h5 {
-        font-size: 14px;
         text-align: center;
     }
 }
@@ -172,7 +186,7 @@ body {
 */
 .escuela-cursos {
     margin: 30px 0;
-    padding: 10px;
+    margin-top: 0;
 }
 
 .escuela-cursos .container {
@@ -180,7 +194,6 @@ body {
 }
 
 .escuela-cursos .cursos-text h2 {
-    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -192,7 +205,6 @@ body {
 }
 
 .escuela-cursos .cursos-text p {
-    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -227,30 +239,15 @@ body {
     background-color: #594EE6;
 }
 
-@media (max-width: 1440px) {
-    .escuela-cursos .cursos-text h2 {
-        font-size: 35px;
-    }
-
-    .escuela-cursos .cursos-text p {
-        font-size: 20px;
-    }
-}
 
 
 @media (max-width: 991px) {
-    .escuela-cursos .cursos-text h2 {
-        font-size: 35px;
-        font-family: 'Red Hat Display';
-    }
+
 
     .escuela-cursos .cursos-text {
         margin-bottom: 30px;
     }
 
-    .escuela-cursos .cursos-text p {
-        font-size: 18px;
-    }
 
     .escuela-cursos .cursos-banner {
         max-width: 100%;
@@ -269,7 +266,7 @@ body {
     .escuela-cursos .cursos-text h2 {
         font-size: 20px;
         font-family: 'Red Hat Display';
-        text-align: center  ;
+        text-align: center;
     }
 
     .escuela-cursos .cursos-text {
@@ -286,13 +283,13 @@ body {
         margin-bottom: 20px;
     }
 
-    .escuela-cursos .dots ul li button {
+    /* .escuela-cursos .dots ul li button {
         all: unset;
         width: 15px;
         height: 15px;
         border-radius: 50%;
         background-color: #C1C4E8;
-    }
+    } */
 
 }
 
@@ -313,12 +310,11 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards {
-    max-width: calc(100% - 400px);
+    max-width: calc(100% - 200px);
     margin-left: auto;
 }
 
 .escuela-tallers .tallers-text-cards h2 {
-    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -326,7 +322,6 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards p {
-    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -334,7 +329,7 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards .taller-cards-wrap>div {
-    min-width: 600px;
+    min-width: 450px;
 }
 
 .escuela-tallers .tallers-text-cards .taller-card {
@@ -348,12 +343,11 @@ body {
 }
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text {
-    padding: 20px 30px;
-    padding-right: 50px;
-}
+    padding: 20px 20px;
+}   
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
     color: #594EE6;
     line-height: 1.5;
@@ -365,7 +359,6 @@ body {
     border-radius: 40px;
     border: 1px solid #041E42;
     background-color: #10CBA9;
-    font-size: 28px;
     color: #041E42;
     font-weight: 600;
     display: inline-block;
@@ -420,47 +413,6 @@ body {
 }
 
 
-@media (max-width: 1440px) {
-    .escuela-tallers .tallers-text-cards {
-        max-width: calc(100% - 250px);
-    }
-
-    .escuela-tallers .tallers-text-cards h2 {
-        font-size: 35px;
-    }
-
-    .escuela-tallers .tallers-text-cards p {
-        font-size: 20px;
-    }
-
-    .escuela-tallers .tallers-text-cards .taller-cards-wrap>div {
-        min-width: 400px;
-    }
-
-    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text {
-        padding: 20px 20px;
-        padding-right: 20px;
-    }
-
-    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
-        font-size: 30px;
-    }
-
-    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text a {
-        font-size: 20px;
-    }
-
-    .escuela-tallers .tallers-text-cards .taller-card .taller-card-text span {
-        font-size: 18px;
-    }
-
-    .escuela-tallers .view-more-btn {
-        padding: 12px 35px;
-        font-size: 20px;
-        transform: translateY(0px);
-    }
-}
-
 
 @media (max-width: 991px) {
     .escuela-tallers .tallers-text-cards {
@@ -468,13 +420,8 @@ body {
         margin-left: auto;
     }
 
-    .escuela-tallers .tallers-text-cards h2 {
-        font-size: 35px;
-    }
 
-    .escuela-tallers .tallers-text-cards p {
-        font-size: 18px;
-    }
+
 
     .escuela-tallers .tallers-text-cards .formaction-cards-wrap>div {
         min-width: 350px;
@@ -487,9 +434,6 @@ body {
         padding-right: 20px;
     }
 
-    .escuela-tallers .tallers-text-cards .formaction-card .taller-card-text h3 {
-        font-size: 18px;
-    }
 
 
 
@@ -586,12 +530,11 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards {
-    max-width: calc(100% - 400px);
+    max-width: calc(100% - 200px);
     margin-left: auto;
 }
 
 .escuela-formaction .formaction-text-cards h2 {
-    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -599,7 +542,6 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards p {
-    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -607,7 +549,7 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
-    min-width: 600px;
+    min-width: 450px;
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card {
@@ -621,8 +563,7 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text {
-    padding: 20px 30px;
-    padding-right: 50px;
+    padding: 20px 20px;
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
@@ -634,7 +575,6 @@ body {
 }
 
 .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h5 {
-    font-size: 30px;
     color: #041E42A1;
     font-family: 'Figtree';
     font-weight: 700;
@@ -645,7 +585,6 @@ body {
     border-radius: 40px;
     border: 1px solid #041E42;
     background-color: #10CBA9;
-    font-size: 28px;
     color: #041E42;
     font-weight: 600;
     display: inline-block;
@@ -656,8 +595,8 @@ body {
     display: block;
     margin-top: 10px;
     color: #041E428C;
-    font-size: 28px;
     font-family: 'Figtree';
+    font-weight: 600;
 }
 
 
@@ -701,49 +640,6 @@ body {
 }
 
 
-@media (max-width: 1440px) {
-    .escuela-formaction .formaction-text-cards {
-        max-width: calc(100% - 250px);
-        margin-left: auto;
-    }
-
-    .escuela-formaction .formaction-text-cards h2 {
-        font-size: 35px;
-    }
-
-    .escuela-formaction .formaction-text-cards p {
-        font-size: 20px;
-    }
-
-    .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
-        min-width: 400px;
-    }
-
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text {
-        padding: 20px 20px;
-        padding-right: 20px;
-    }
-
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
-        font-size: 30px;
-    }
-
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
-        padding: 8px 35px;
-        font-size: 20px;
-    }
-
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text span {
-        font-size: 20px;
-    }
-
-
-    .escuela-formaction .view-more-btn {
-        padding: 10px 35px;
-        font-size: 20px;
-
-    }
-}
 
 
 @media (max-width: 991px) {
@@ -752,13 +648,7 @@ body {
         margin-left: auto;
     }
 
-    .escuela-formaction .formaction-text-cards h2 {
-        font-size: 35px;
-    }
-
-    .escuela-formaction .formaction-text-cards p {
-        font-size: 18px;
-    }
+   
 
     .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
         min-width: 350px;
@@ -769,10 +659,6 @@ body {
     .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text {
         padding: 20px 20px;
         padding-right: 20px;
-    }
-
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
-        font-size: 18px;
     }
 
 
@@ -795,14 +681,12 @@ body {
 
 }
 
-@media (max-width: 575px) {
+@media (max-width: 991px) {
     .escuela-formaction .formaction-text-cards h2 {
-        font-size: 20px;
         text-align: center;
     }
 
     .escuela-formaction .formaction-text-cards p {
-        font-size: 14px;
         text-align: center;
     }
 
@@ -810,18 +694,12 @@ body {
         border-radius: 15px;
     }
 
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text h3 {
-        font-size: 18px;
-    }
-
+   
     .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text p {
         margin-bottom: 10px;
     }
 
-    .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text a {
-        padding: 6px 26px;
-        font-size: 14px;
-    }
+ 
 
 
     .escuela-formaction .dots {
@@ -844,7 +722,6 @@ body {
 
     .escuela-formaction .view-more-btn {
         padding: 8px 25px;
-        font-size: 14px;
     }
 }
 

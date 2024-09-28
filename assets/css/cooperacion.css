@@ -87,6 +87,39 @@ body {
     overflow: hidden;
 }
 
+.my_container {
+    padding: 24px 140px;
+}
+
+@media (max-width: 992px) {
+    .my_container {
+        padding: 15px !important;
+    }
+}
+
+.heading-1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Red Hat Display;
+}
+
+.body-1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Figtree;
+}
+
+.heading-3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Red Hat Display;
+}
+
+
+.text-azul-indigo {
+    color: #041e42;
+}
+
 /* .cooperation h2{
     font-family: 'Red Hat Display';
     font-size: 45px;
@@ -95,9 +128,7 @@ body {
 .cooperation p{
     font-size: 20px;
 } */
-.cooperation-hero .container {
-    max-width: 1420px
-}
+
 
 .cooperation-hero .coo-header {
     height: 100px;
@@ -106,12 +137,6 @@ body {
 }
 
 
-.cooperation-hero p {
-    font-size: 28px;
-    text-align: justify;
-    color: #041E42;
-    font-family: 'Figtree';
-}
 
 /* cooperacion-cards-wrap  start*/
 .cooperation-hero .cooperacion-cards-wrap {
@@ -119,10 +144,6 @@ body {
 }
 
 .cooperation-hero .cooperacion-cards-wrap h2 {
-    font-size: 52px;
-    font-weight: 700;
-    color: #594EE6;
-    margin-bottom: 40px;
     font-family: 'Red Hat Display';
 
 }
@@ -139,9 +160,6 @@ body {
 }
 
 .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #041E42;
     font-family: 'Red Hat Display';
 }
 
@@ -150,101 +168,22 @@ body {
     padding: 40px 40px;
 }
 
-.cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
-    font-size: 28px;
-    color: #041E42;
-    font-family: 'Figtree';
-}
-
-
-@media (max-width: 1440px) {
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
-        font-size: 28px;
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 991px) {
-    .cooperation-hero p {
-        font-size: 18px;
-    }
-
-    /* cooperacion-cards-wrap  start*/
-    .cooperation-hero .cooperacion-cards-wrap {
-        margin-top: 40px;
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap h2 {
-        font-size: 35px;
-
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading {
-        padding: 40px 20px;
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
-        font-size: 26px;
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text {
-        padding: 20px;
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
-        font-size: 18px;
-    }
-}
-
-
 @media (max-width: 575px) {
-    .cooperation-hero p {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    /* cooperacion-cards-wrap  start*/
-    .cooperation-hero .cooperacion-cards-wrap {
-        margin-top: 20px;
-    }
-
-
-    .cooperation-hero .cooperacion-cards-wrap h2 {
-        font-size: 25px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card {
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-
     .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading {
         padding: 20px 10px;
     }
 
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .heading h3 {
-        font-size: 18px;
-        text-align: center;
-    }
-
     .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text {
-        background-color: #E1E1E1;
-        padding: 10px;
+        padding: 20px 15px;
     }
 
-    .cooperation-hero .cooperacion-cards-wrap .cooperacion-card .card-text p {
-        font-size: 14px;
-        text-align: center;
-    }
 }
 
 
+
 /* cooperacion-cards-wrap  end*/
+
+
 
 
 /* 
@@ -254,25 +193,16 @@ body {
 */
 .Institucional {
     background-color: #C1C4E8;
-    padding: 60px 10px;
+    padding: 60px 0px;
 }
 
-.Institucional .container {
-    max-width: 1420px;
-}
 
 .Institucional h2 {
     font-family: 'Red Hat Display';
-    font-size: 52px;
-    font-weight: 700;
-    color: #594EE6;
     margin-bottom: 20px;
 }
 
 .Institucional p {
-    font-size: 28px;
-    text-align: justify;
-    color: #041E42;
     font-family: 'Figtree';
     margin-bottom: 20px;
 }
@@ -299,7 +229,6 @@ body {
 }
 
 .Institucional .institucional-cards .inst-card .card-text h3 {
-    font-size: 35px;
     margin-bottom: 24px;
     font-weight: 700;
     color: #041E42;
@@ -316,105 +245,6 @@ body {
 
 }
 
-@media (max-width: 1440px) {
-    .Institucional h2 {
-        font-size: 35px;
-    }
-
-    .Institucional p {
-        font-size: 20px;
-    }
-
-    .Institucional .institucional-cards .inst-card .card-text h3 {
-        font-size: 25px;
-    }
-
-    .Institucional .institucional-cards .inst-card .card-text a {
-        padding: 8px 30px;
-        font-size: 20px;
-
-    }
-}
-
-
-@media (max-width: 991px) {
-    .Institucional {
-        padding: 40px 10px;
-    }
-
-    .Institucional h2 {
-        font-size: 35px;
-    }
-
-    .Institucional p {
-        font-size: 18px;
-    }
-
-    .Institucional .institucional-cards {
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-
-
-
-    .Institucional .institucional-cards .inst-card {
-        border-radius: 20px;
-    }
-
-    .Institucional .institucional-cards .inst-card .card-text {
-        padding: 20px 20px;
-    }
-
-    .Institucional .institucional-cards .inst-card .card-text h3 {
-        font-size: 22px;
-        margin-bottom: 24px;
-        font-weight: 700;
-        color: #041E42;
-    }
-
-}
-
-@media (max-width: 575px) {
-    .Institucional {
-        padding: 40px 0px;
-    }
-
-    .Institucional h2 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .Institucional p {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .Institucional .institucional-cards {
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-
-    .Institucional .institucional-cards .inst-card {
-        border-radius: 15px;
-    }
-
-
-    .Institucional .institucional-cards .inst-card .card-text {
-        text-align: center;
-        padding: 20px 20px;
-    }
-
-    .Institucional .institucional-cards .inst-card .card-text h3 {
-        font-size: 18px;
-        margin-bottom: 18px;
-    }
-
-    .Institucional .institucional-cards .inst-card .card-text a {
-        padding: 6px 25px;
-        font-size: 14px;
-
-    }
-}
 
 /* 
 =======================================
