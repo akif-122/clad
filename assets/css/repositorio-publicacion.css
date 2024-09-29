@@ -113,7 +113,6 @@ body {
 }
 
 .repositorio-publicacion-hero h2 {
-    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     font-family: 'Red Hat Display';
@@ -122,7 +121,6 @@ body {
 }
 
 .repositorio-publicacion-hero P {
-    font-size: 28px;
     margin-bottom: 40px;
     font-family: 'Figtree';
     text-align: justify;
@@ -133,7 +131,6 @@ body {
     background-color: #C1C4E8;
     padding: 12px 40px;
     border-radius: 60px;
-    font-size: 35px;
     font-weight: 500;
     font-family: 'Red Hat Display';
     color: #041E42;
@@ -145,91 +142,68 @@ body {
     font-weight: 700;
 }
 
-.repositorio-publicacion-hero .label {
+.repositorio-publicacion-hero .labels {
     display: block;
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     width: fit-content;
-    padding: 15px 70px;
+    padding: 16px 70px;
     text-transform: uppercase;
     color: #C1C4E8;
-    font-size: 50px;
     font-family: 'Red Hat Display';
     font-weight: 700;
     border-radius: 80px;
     background-color: #594EE6;
 }
 
-@media (max-width: 1440px) {
-    .repositorio-publicacion-hero h2 {
-        font-size: 35px;
-    }
-
-    .repositorio-publicacion-hero P {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-
-    .repositorio-publicacion-hero p.label-text {
-        background-color: #C1C4E8;
-        padding: 10px 35px;
-        font-size: 30px;
-        margin: 25px 0;
-    }
-
-    .repositorio-publicacion-hero .label {
-        height: 55px;
-        padding: 8px 30px;
-        font-size: 30px;
-    }
-}
 
 @media (max-width: 991px) {
     .repositorio-publicacion-hero h2 {
-        font-size: 25px;
         margin-bottom: 20px;
     }
 
     .repositorio-publicacion-hero P {
-        font-size: 20px;
         margin-bottom: 30px;
     }
 
     .repositorio-publicacion-hero p.label-text {
         padding: 8px 30px;
         border-radius: 50px;
-        font-size: 25px;
         margin: 20px 0;
     }
 
-    .repositorio-publicacion-hero .label {
-        height: 55px;
+    .repositorio-publicacion-hero .labels {
         padding: 10px 40px;
-        font-size: 30px;
     }
 }
 
 @media (max-width: 575px) {
+    .repositorio-publicacion-hero {
+        margin: 30px 0;
+    }
+
     .repositorio-publicacion-hero h2 {
         margin-bottom: 10px;
     }
 
     .repositorio-publicacion-hero P {
-        font-size: 14px;
         margin-bottom: 20px;
     }
 
     .repositorio-publicacion-hero p.label-text {
         padding: 5px 30px;
         border-radius: 50px;
-        font-size: 20px;
     }
 
-    .repositorio-publicacion-hero .label {
-        height: 35px;
+    .repositorio-publicacion-hero .labels {
         padding: 7px 25px;
-        font-size: 16px;
+    }
+
+
+    .repositorio-publicacion-hero p.label-text {
+        padding: 10px 20px;
+        font-size: 18px;
     }
 
 }
@@ -248,7 +222,6 @@ body {
 }
 
 .rep-pub-text p {
-    font-size: 28px;
     margin: 30px 0;
     font-family: 'Figtree';
     text-align: justify;
@@ -275,29 +248,10 @@ body {
     margin: 40px 0;
 }
 
-@media (max-width: 1440px) {
-    .rep-pub-text p {
-        font-size: 20px;
 
-    }
-
-    .rep-pub-text .rep-pub-text-card {
-        border-radius: 20px;
-        padding: 25px 100px;
-        margin: 40px 0;
-    }
-
-    .rep-pub-text h3 {
-        font-size: 25px;
-        margin: 40px 0;
-    }
-}
 
 @media (max-width: 991px) {
-    .rep-pub-text p {
-        font-size: 18px;
 
-    }
 
     .rep-pub-text .rep-pub-text-card {
         border-radius: 20px;
@@ -306,14 +260,12 @@ body {
     }
 
     .rep-pub-text h3 {
-        font-size: 20px;
         margin: 30px 0;
     }
 }
 
 @media (max-width: 991px) {
     .rep-pub-text p {
-        font-size: 14px;
         margin: 15px 0;
         text-align: center;
 
@@ -331,7 +283,6 @@ body {
     }
 
     .rep-pub-text h3 {
-        font-size: 16px;
         margin: 30px 0;
         text-align: center;
     }
@@ -351,7 +302,6 @@ body {
 }
 
 .similar-section h2 {
-    font-size: 52px;
     font-weight: 700;
     color: #594EE6;
     font-family: 'Red Hat Display';
@@ -408,12 +358,11 @@ body {
 .similar-section .similar-card .estudio-card .user .user-name span {
     font-size: 24px;
     color: #041E42;
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Figtree';
 }
 
 .similar-section .similar-card .estudio-card h3 {
-    font-size: 40px;
     color: #594EE6;
     font-weight: 700;
     margin: 40px 0;
@@ -421,20 +370,18 @@ body {
 }
 
 .similar-section .similar-card .estudio-card p {
-    font-size: 30px;
     margin-bottom: 30px;
     font-family: 'Figtree';
     text-align: justify;
 }
 
-.similar-section .similar-card .estudio-card .label {
+.similar-section .similar-card .estudio-card .labels {
     color: #C1C4E8;
     background-color: #594EE6;
-    font-size: 30px;
     display: inline-block;
-    padding: 14px 30px;
+    padding: 6px 30px;
     border-radius: 60px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
@@ -455,8 +402,6 @@ body {
 }
 
 .similar-section .similar-card .estudio-card .views p span {
-    font-size: 25px;
-    color: #FFFFFF;
     font-family: 'Figtree';
 }
 
@@ -467,46 +412,8 @@ body {
 }
 
 
-@media (max-width: 1440px) {
-
-    .similar-section h2 {
-        font-size: 35px;
-    }
-
-    .similar-section .similar-card .estudio-card .user .user-name h6 {
-        font-size: 25px;
-    }
-
-    .similar-section .similar-card .estudio-card .user .user-name span {
-        font-size: 20px;
-    }
-
-    .similar-section .similar-card .estudio-card h3 {
-        font-size: 30px;
-        margin: 30px 0;
-    }
-
-    .similar-section .similar-card .estudio-card p {
-        font-size: 20px;
-    }
-
-    .similar-section .similar-card .estudio-card .label {
-        font-size: 20px;
-        padding: 10px 25px;
-    }
-
-
-    .similar-section .similar-card .estudio-card .views p {
-        margin-left: 50px;
-
-    }
-
-}
-
 @media (max-width: 991px) {
-    .similar-section h2 {
-        font-size: 25px;
-    }
+
 
     .similar-section .similar-card .estudio-card {
         padding: 30px;
@@ -565,9 +472,6 @@ body {
 
 
 @media (max-width: 575px) {
-    .similar-section h2 {
-        font-size: 25px;
-    }
 
     .similar-section .similar-card .estudio-card {
         padding: 20px;
@@ -585,25 +489,15 @@ body {
         height: 50px;
     }
 
-    .similar-section .similar-card .estudio-card .user .user-name h6 {
-        font-size: 16px;
-    }
 
-    .similar-section .similar-card .estudio-card .user .user-name span {
-        font-size: 13px;
-    }
 
     .similar-section .similar-card .estudio-card h3 {
-        font-size: 20px;
         margin: 20px 0;
     }
 
-    .similar-section .similar-card .estudio-card p {
-        font-size: 14px;
-    }
+
 
     .similar-section .similar-card .estudio-card .label {
-        font-size: 14px;
         padding: 5px 20px;
     }
 
@@ -613,13 +507,7 @@ body {
 
     }
 
-    .similar-section .similar-card .estudio-card .views p i {
-        font-size: 20px;
-    }
 
-    .similar-section .similar-card .estudio-card .views p span {
-        font-size: 14px;
-    }
 }
 
 

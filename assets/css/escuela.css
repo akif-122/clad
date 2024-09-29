@@ -129,7 +129,7 @@ body {
 =====================================
 */
 .escuela-hero-section {
-    padding: 60px 10px;
+    padding: 20px 10px;
 }
 
 .escuela-hero-section .container {
@@ -344,7 +344,7 @@ body {
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text {
     padding: 20px 20px;
-}   
+}
 
 .escuela-tallers .tallers-text-cards .taller-card .taller-card-text h3 {
     font-size: 28px;
@@ -648,7 +648,7 @@ body {
         margin-left: auto;
     }
 
-   
+
 
     .escuela-formaction .formaction-text-cards .formaction-cards-wrap>div {
         min-width: 350px;
@@ -694,12 +694,12 @@ body {
         border-radius: 15px;
     }
 
-   
+
     .escuela-formaction .formaction-text-cards .formaction-card .formaction-card-text p {
         margin-bottom: 10px;
     }
 
- 
+
 
 
     .escuela-formaction .dots {
@@ -746,7 +746,6 @@ body {
 }
 
 .escuela-webinars h2 {
-    font-size: 52px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
@@ -754,7 +753,6 @@ body {
 }
 
 .escuela-webinars p {
-    font-size: 28px;
     text-align: justify;
     color: #FBFBFD;
     font-family: 'Figtree';
@@ -777,11 +775,10 @@ body {
 }
 
 .escuela-webinars .webinar-card .webinar-card-text .text {
-    padding: 20px 40px;
+    padding: 20px 35px;
 }
 
 .escuela-webinars .webinar-card .webinar-card-text .text p {
-    font-size: 28px;
     font-weight: 600;
     color: #041E42;
     margin: 0;
@@ -789,13 +786,13 @@ body {
 
 .escuela-webinars .webinar-card .webinar-card-text a {
     display: inline-block;
-    padding: 10px 35px;
+    padding: 5px 35px;
     background-color: #594EE6;
     border-radius: 50px;
     color: #ffff;
     font-size: 28px;
     font-family: 'Figtree';
-
+    white-space: nowrap;
 }
 
 .escuela-webinars .webinar-btn {
@@ -812,45 +809,9 @@ body {
 }
 
 
-@media (max-width: 1440px) {
-    .escuela-webinars h2 {
-        font-size: 35px;
-    }
-
-    .escuela-webinars p {
-        font-size: 20px;
-    }
-
-    .escuela-webinars .webinar-card .webinar-card-text .text {
-        padding: 20px 30px;
-    }
-
-    .escuela-webinars .webinar-card .webinar-card-text .text p {
-        font-size: 20px;
-    }
-
-    .escuela-webinars .webinar-card .webinar-card-text a {
-        display: inline-block;
-        padding: 8px 25px;
-        font-size: 20px;
-
-    }
-
-    .escuela-webinars .webinar-btn {
-        padding: 10px 30px;
-        font-size: 20px;
-    }
-}
-
-
 @media (max-width: 991px) {
-    .escuela-webinars h2 {
-        font-size: 35px;
-    }
 
-    .escuela-webinars p {
-        font-size: 18px;
-    }
+
 
     .escuela-webinars .webinar-card {
         padding-bottom: 10px;
@@ -867,21 +828,10 @@ body {
     .escuela-webinars .webinar-card .webinar-card-text a {
         display: inline-block;
         padding: 10px 25px;
-        font-size: 14px;
         white-space: nowrap;
 
     }
 
-    .escuela-webinars .webinar-btn {
-        padding: 12px 35px;
-        background-color: #8AE6DE;
-        color: #594EE6;
-        font-size: 18px;
-        border-radius: 50px;
-        font-weight: 500;
-        margin-top: 20px;
-        display: inline-block;
-    }
 }
 
 
@@ -891,12 +841,10 @@ body {
     }
 
     .escuela-webinars h2 {
-        font-size: 25px;
         text-align: center;
     }
 
     .escuela-webinars p {
-        font-size: 14px;
         text-align: center;
     }
 
@@ -910,20 +858,17 @@ body {
     }
 
     .escuela-webinars .webinar-card .webinar-card-text .text p {
-        font-size: 14px;
         text-align: center;
     }
 
     .escuela-webinars .webinar-card .webinar-card-text a {
         display: inline-block;
         padding: 7px 25px;
-        font-size: 14px;
 
     }
 
     .escuela-webinars .webinar-btn {
         padding: 8px 25px;
-        font-size: 14px;
     }
 }
 
@@ -950,14 +895,12 @@ body {
 .escuela-comunidades-section .comunidades-header {
     background-color: #ACE3DF;
     padding: 30px 10px;
-    margin-bottom: 50px;
     min-height: 140px;
     display: flex;
     align-items: center;
 }
 
 .escuela-comunidades-section .comunidades-header h1 {
-    font-size: 64px;
     font-weight: 700;
     color: #041E42;
     font-family: 'Red Hat Display';
@@ -965,7 +908,6 @@ body {
 }
 
 .escuela-comunidades-section h2 {
-    font-size: 48px;
     font-weight: 700;
     color: #594EE6;
     margin-bottom: 20px;
@@ -973,7 +915,6 @@ body {
 }
 
 .escuela-comunidades-section p {
-    font-size: 28px;
     text-align: justify;
     color: #041E42;
     font-family: 'Figtree';
@@ -1004,23 +945,20 @@ body {
     text-align: center;
     padding: 12px;
     border-radius: 60px;
+    max-width: 400px;
+    margin: auto;
+}
+
+@media (max-width: 1199px) {
+    .escuela-comunidades-section .comunidades-card {
+        padding: 40px 40px;
+    }
 }
 
 @media (max-width: 991px) {
-    .escuela-comunidades-section .comunidades-header h1 {
-        font-size: 40px;
-    }
-
-    .escuela-comunidades-section h2 {
-        font-size: 34px;
-    }
-
-    .escuela-comunidades-section p {
-        font-size: 20px;
-    }
+   
 
     .escuela-comunidades-section .comunidades-card a {
-        font-size: 20px;
         padding: 8px;
         border-radius: 60px;
     }
@@ -1029,31 +967,6 @@ body {
 
 
 
-@media (max-width: 991px) {
-
-    .escuela-comunidades-section .comunidades-header {
-        padding: 30px 10px;
-    }
-
-    .escuela-comunidades-section .comunidades-header h1 {
-        font-size: 38px;
-    }
-
-
-
-    .escuela-comunidades-section p {
-        font-size: 18px;
-    }
-
-    .escuela-comunidades-section .comunidades-card {
-        background-color: #C1C4E8;
-        border-radius: 20px;
-        padding: 40px 60px;
-        margin-bottom: 20px;
-    }
-
-
-}
 
 
 @media (max-width: 575px) {
@@ -1063,34 +976,28 @@ body {
     }
 
     .escuela-comunidades-section .comunidades-header h1 {
-        font-size: 25px;
         text-align: center;
     }
 
     .escuela-comunidades-section h2 {
-        font-size: 25px;
         text-align: center;
     }
 
 
     .escuela-comunidades-section p {
-        font-size: 14px;
         text-align: center;
     }
 
     .escuela-comunidades-section .comunidades-card {
         background-color: #C1C4E8;
         border-radius: 10px;
-        padding: 15px 30px;
+        padding: 10px 10px;
         margin-bottom: 20px;
     }
 
-    .escuela-comunidades-section .comunidades-card h2 {
-        font-size: 16px;
-    }
+
 
     .escuela-comunidades-section .comunidades-card a {
-        font-size: 14px;
         padding: 7px;
     }
 
