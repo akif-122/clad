@@ -112,7 +112,13 @@
 .terms-condition {
     margin: 70px 0;
 }
+.terms-condition .my_container2{
+    padding: 15px 80px;
+}
 
+.terms-condition .tc-text p{
+    text-align: justify;
+}
 .terms-condition .tc-text .tc-text-cards .tc-text-card {
     background-color: #C1C4E8;
     border-radius: 70px;
